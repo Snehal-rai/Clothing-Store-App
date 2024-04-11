@@ -11,9 +11,6 @@ const ProductComponent = () => {
   const [cart, setCart] = useState([]);
   const [flag, setflag] = useState("flase");
 
-  useEffect(() => {
-    fetchData();
-  }, [category]);
 
   const fetchData = async () => {
     try {
