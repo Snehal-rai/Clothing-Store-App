@@ -10,7 +10,6 @@ const ProductComponent = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [cart, setCart] = useState([]);
   const [flag, setflag] = useState("flase");
-  const [price, Setprice] = useState(0);
 
   useEffect(() => {
     fetchData();
