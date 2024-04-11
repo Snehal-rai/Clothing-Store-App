@@ -1,0 +1,132 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3; /* Light Grey */
+}
+
+body {
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading-text {
+  margin: 0;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.product img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+}
+
+.cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #3ec36a; /* Dim Grey */
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.search-container {
+  padding: 20px;
+}
+
+.search-input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.category-buttons button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #37b8b8; /* Dark Slate Grey */
+  color: white;
+  cursor: pointer;
+}
+
+.category-buttons button.active {
+  background-color: #006400; /* Dark Green */
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product {
+  margin: 20px;
+}
+
+.card {
+  width: 200px;
+  padding: 10px;
+  background-color: #26d873; /* Dim Grey */
+  color: white;
+}
+
+.add-to-cart,
+.add-to-favorites {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2f4f4f; /* Dark Slate Grey */
+  color: white;
+  cursor: pointer;
+}
+
+.add-to-cart:hover,
+.add-to-favorites:hover {
+  background-color: #708090; /* Slate Grey */
+}
+
+.cart-section {
+  padding: 20px;
+}
+
+.cart-section h2 {
+  margin-bottom: 10px;
+}
+
+.cart-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-section ul li {
+  margin-bottom: 5px;
+}
+
+.cart-section p {
+  margin-top: 10px;
+}
+.highlighted-heading {
+  background-color: skyblue; /* Change to sky blue or other preferred color */
+  padding: 10px; /* Adjust padding as needed */
+  color: white; /* Text color */
+}
+

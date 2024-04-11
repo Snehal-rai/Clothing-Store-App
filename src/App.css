@@ -1,0 +1,109 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3; /* Light Grey */
+}
+
+body {
+  text-align: center;
+}
+
+#clothesPicture {
+  width: 200px;
+  padding: 10px;
+}
+
+.cards {
+  width: 250px;
+  height: 300px;
+  margin: 23px;
+  color: #da147d; /* Dim Grey */
+  background-color: #000000; /* Black */
+}
+
+.products,
+.cartprod {
+  flex-basis: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100px;
+  border: none;
+  height: 30px;
+  padding: 3px;
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 30px;
+  color: white;
+  background-color: #696969; /* Dim Grey */
+}
+
+.btn:hover {
+  background-color: rgba(255, 145, 0, 0.892);
+}
+
+.cartbtn:hover {
+  background-color: rgba(255, 145, 0, 0.979);
+}
+
+#cat {
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.productItems {
+  margin-bottom: 20px;
+  width: 20%;
+  padding: 8px;
+  box-shadow: 0px 0px 10px #2228c7;
+}
+
+.productItems h6,
+.productItems h5 {
+  padding: 4px;
+}
+
+.productItems h6 span {
+  text-decoration: line-through;
+}
+
+.productItems hr {
+  margin: 2px 0px 3px 0px;
+}
+
+img {
+  width: 240px;
+}
+
+#search {
+  width: 250px;
+  height: 30px;
+  border: 3px solid #a5ed1e; /* Black */
+  background-color: #ffffff; /* White */
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px;
+  margin: 30px;
+}
+
+.cartbtn {
+  color: azure;
+  border: none;
+  height: 30px;
+  font-weight: 100;
+  width: 100px;
+  cursor: pointer;
+  background-color: #cd1f1f; /* Dim Grey */
+}
+
+h1 {
+  margin: 30px;
+}
